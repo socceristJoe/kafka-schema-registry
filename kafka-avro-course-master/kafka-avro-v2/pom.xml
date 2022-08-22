@@ -19,12 +19,12 @@
     </properties>
 
     <!--necessary to resolve confluent dependencies-->
-<!--    <repositories>-->
-<!--        <repository>-->
-<!--            <id>confluent</id>-->
-<!--            <url>http://packages.confluent.io/maven/</url>-->
-<!--        </repository>-->
-<!--    </repositories>-->
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>https://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
 
 
     <dependencies>
