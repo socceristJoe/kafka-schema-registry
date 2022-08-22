@@ -1,6 +1,6 @@
 package com.github.simplesteph.kafka.apps.v1;
 
-import com.example.Customer;
+import com.joe.Customer;
 import io.confluent.kafka.serializers.KafkaAvroSerializer;
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;

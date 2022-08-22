@@ -4,6 +4,8 @@ wget http://central.maven.org/maven2/org/apache/avro/avro-tools/1.8.2/avro-tools
 # run this from our project folder. Make sure ~/avro-tools-1.8.2.jar is your actual avro tools location
 java -jar avro-tools-1.8.2.jar tojson --pretty ../kafka-avro-course-master/customer-generic.avro
 java -jar avro-tools-1.8.2.jar tojson --pretty ../kafka-avro-course-master/customer-specific.avro 
+java -jar avro-tools-1.8.2.jar tojson --pretty ../kafka-avro-course-master/customer-reflected.avro 
 
 # getting the schema
-java -jar ~/avro-tools-1.8.2.jar getschema customer-specific.avro 
+java -jar avro-tools-1.8.2.jar getschema ../kafka-avro-course-master/customer-specific.avro 
+java -jar avro-tools-1.8.2.jar getschema ../kafka-avro-course-master/customer-reflected.avro 

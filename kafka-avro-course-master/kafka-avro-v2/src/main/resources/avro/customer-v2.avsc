@@ -1,6 +1,6 @@
 {
      "type": "record",
-     "namespace": "com.example",
+     "namespace": "com.joe",
      "name": "Customer",
      "version": "2",
      "fields": [
