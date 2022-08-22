@@ -3,6 +3,8 @@
 # Get the command line from:
 docker run --net=host -it confluentinc/cp-schema-registry:3.3.0 bash
 
+docker-compose up -d
+
 # Or download the Confluent Binaries at https://www.confluent.io/download/
 # And add them to your PATH
 
