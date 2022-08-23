@@ -1,7 +1,7 @@
 [
   {
       "type": "record",
-      "namespace": "com.example",
+      "namespace": "com.joe",
       "name": "CustomerAddress",
       "fields": [
         { "name": "address", "type": "string" },
@@ -12,7 +12,7 @@
   },
   {
      "type": "record",
-     "namespace": "com.example",
+     "namespace": "com.joe",
      "name": "Customer",
      "fields": [
        { "name": "first_name", "type": "string" },
@@ -23,6 +23,6 @@
        { "name": "weight", "type": "float" },
        { "name": "automated_email", "type": "boolean", "default": true },
        { "name": "customer_emails", "type": "array", "items": "string", "default": []},
-       { "name": "customer_address", "type": "com.example.CustomerAddress" }
+       { "name": "customer_address", "type": "com.joe.CustomerAddress" }
      ]
 }]

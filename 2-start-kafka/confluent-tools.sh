@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # Two options to get access to the confluent tools
+cd /Users/joeqiao/Documents/LocalHub/kafka/kafka-schema-registry/2-start-kafka
+docker-compose up -d
+
 
 # Option 1:
 # Download the confluent binaries at:

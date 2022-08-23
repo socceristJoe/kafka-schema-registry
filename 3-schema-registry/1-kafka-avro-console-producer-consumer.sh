@@ -1,9 +1,13 @@
 #!/bin/bash
 # change 127.0.0.1 by your Docker ADV_HOST  
 # Get the command line from:
-docker run --net=host -it confluentinc/cp-schema-registry:3.3.0 bash
+docker run --net=host -it confluentinc/cp-schema-registry:6.1.0 bash
 
 docker-compose up -d
+
+confluent local services control-center start
+
+localhost:9021
 
 # Or download the Confluent Binaries at https://www.confluent.io/download/
 # And add them to your PATH

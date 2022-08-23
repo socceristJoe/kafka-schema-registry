@@ -1,7 +1,7 @@
 [
   {
       "type": "record",
-      "namespace": "com.example",
+      "namespace": "com.joe",
       "name": "CustomerAddress",
       "fields": [
         { "name": "", "type": "" }        
@@ -9,7 +9,7 @@
   },
   {
      "type": "record",
-     "namespace": "com.example",
+     "namespace": "com.joe",
      "name": "Customer",
      "fields": [
        { "name": "first_name", "type": "string" },
