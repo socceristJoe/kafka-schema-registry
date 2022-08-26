@@ -1,4 +1,4 @@
-package com.simplesteph.github.kafka.producer.udemy.client;
+package com.joe.learn.kafka.producer.udemy.client;
 
 import com.joe.learn.kafka.avro.udemy.Course;
 import com.joe.learn.kafka.avro.udemy.Review;

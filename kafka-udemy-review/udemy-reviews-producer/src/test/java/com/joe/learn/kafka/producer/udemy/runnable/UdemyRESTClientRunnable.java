@@ -1,4 +1,4 @@
-package com.simplesteph.github.kafka.producer.udemy.runnable;
+package com.joe.learn.kafka.producer.udemy.runnable;
 
 public class UdemyRESTClientRunnable {
 }

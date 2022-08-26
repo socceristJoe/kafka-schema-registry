@@ -69,6 +69,7 @@ java -jar udemy-reviews-aggregator/target/uber-udemy-reviews-aggregator-1.0-SNAP
 
 # Load the recent and long term stats into Postgres using Kafka Connect Sink!
 confluent load SinkTopics -d kafka-connectors/SinkTopicsInPostgres.properties
+confluent local services connect connector config SinkTopics --config kafka-connectors/SinkTopicsInPostgres.properties
 
 ## Step 5: Play some more
 

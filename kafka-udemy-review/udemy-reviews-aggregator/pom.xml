@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.simplesteph.kafka.streams</groupId>
+    <groupId>com.joe.learn.kafka.streams</groupId>
     <artifactId>udemy-reviews-aggregator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -16,7 +16,7 @@
     </repositories>
 
     <properties>
-        <kafka.version>2.1.0</kafka.version>
+        <kafka.version>2.3.0</kafka.version>
         <confluent.version>5.1.1</confluent.version>
         <avro.version>1.8.2</avro.version>
         <unirest.version>1.4.9</unirest.version>
@@ -94,7 +94,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.simplesteph.kafka.producer</groupId>
+            <groupId>com.joe.learn.kafka.producer</groupId>
             <artifactId>udemy-reviews-producer</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
