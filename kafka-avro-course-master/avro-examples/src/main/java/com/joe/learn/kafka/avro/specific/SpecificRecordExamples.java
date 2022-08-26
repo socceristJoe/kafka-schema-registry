@@ -1,4 +1,4 @@
-package com.github.simplesteph.avro.specific;
+package com.joe.learn.kafka.avro.specific;
 
 import com.joe.Customer;
 import org.apache.avro.file.DataFileReader;

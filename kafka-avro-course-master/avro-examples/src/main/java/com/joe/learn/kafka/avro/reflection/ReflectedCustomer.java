@@ -1,4 +1,4 @@
-package com.github.simplesteph.avro.reflection;
+package com.joe.learn.kafka.avro.reflection;
 
 import org.apache.avro.reflect.Nullable;
 

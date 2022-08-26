@@ -1,4 +1,4 @@
-package com.github.simplesteph.avro.generic;
+package com.joe.learn.kafka.avro.generic;
 
 import org.apache.avro.AvroRuntimeException;
 import org.apache.avro.Schema;

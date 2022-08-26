@@ -1,4 +1,4 @@
-package com.github.simplesteph.avro.evolution;
+package com.joe.learn.kafka.avro.evolution;
 
 import com.joe.CustomerV1;
 import com.joe.CustomerV2;

@@ -1,4 +1,4 @@
-package com.github.simplesteph.kafka.apps.v2;
+package com.joe.learn.kafka.apps.v2;
 
 import com.joe.Customer;
 import io.confluent.kafka.serializers.KafkaAvroSerializer;
